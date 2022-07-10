@@ -22,7 +22,7 @@ export function AboutComponent() {
                     <br></br>
                     <div className="field is-grouped">
                         <p className="control">
-                            <a className="bd-tw-button is-medium button is-light is-outlined" target="_blank" href="https://github.com/Calvinmac633?tab=repositories">
+                            <a className="bd-tw-button is-medium button is-light is-outlined" rel="noopener noreferrer" target="_blank" href="https://github.com/Calvinmac633?tab=repositories">
                                 <span className="icon">
                                     <i className="fab fa-github"></i>
                                 </span>
@@ -32,7 +32,7 @@ export function AboutComponent() {
                             </a>
                         </p>
                         <p className="control">
-                            <a href={resume} target="_blank"
+                            <a href={resume} target="_blank" rel="noopener noreferrer"
                                 className="button is-medium is-light is-outlined">
                                 <span className="icon">
                                     <i className="fas fa-check-square"></i>

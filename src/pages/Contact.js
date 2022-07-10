@@ -20,7 +20,7 @@ function Contact() {
                 <br></br>
                 <div className="row">
                     <div className="contactCard">
-                        <a target="_blank" href="https://github.com/Calvinmac633">
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Calvinmac633">
                             <i style={{ color: "rgb(90,162,220)", width: "3rem", height: "3rem" }} className="fab fa-github"></i>
 
                         </a>
@@ -34,7 +34,7 @@ function Contact() {
                         <h4 className="contactHeader">calvinmac633@gmail.com</h4>
                     </div>
                     <div className="contactCard">
-                        <a target="_blank" href="https://www.linkedin.com/in/calvin-macintosh-b5025198/">
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/calvin-macintosh-b5025198/">
                             <i style={{ color: "rgb(90,162,220)", width: "3rem", height: "3rem" }} className="fab fa-linkedin"></i>
                         </a>
                         <h4 className="contactHeader">LinkedIn</h4>

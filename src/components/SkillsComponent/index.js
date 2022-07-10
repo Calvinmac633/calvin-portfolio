@@ -34,42 +34,42 @@ export function SkillsComponent() {
                 <h1 class="title">- - -</h1>
                 <div className="iconRows">
                     <div className="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-xs-12">
-                        <a target="_blank" href="https://github.com/Calvinmac633"><img className="icons" title="Github" src={githubIcon}/></a>
+                        <a target="_blank" href="https://github.com/Calvinmac633" rel="noopener noreferrer"><img alt='Github' className="icons" title="Github" src={githubIcon}/></a>
                     </div>
                     <div className="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-xs-12">
-                        <a href="https://getbootstrap.com/" target="_blank"><img className="icons" title="Bootstrap" src={boostrapIcon} /></a>
+                        <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer"><img alt='Bootstrap' className="icons" title="Bootstrap" src={boostrapIcon} /></a>
                     </div>
                     <div className="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-xs-12">
-                        <a href="https://firebase.google.com/" target="_blank"><img className="icons" title="Firebase" src={firebaseIcon} /></a>
+                        <a href="https://firebase.google.com/" target="_blank" rel="noopener noreferrer"><img className="icons" alt='Firebase' title="Firebase" src={firebaseIcon} /></a>
                     </div>
                     <div className="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-xs-12">
-                        <a href="https://www.w3schools.com/" target="_blank"><img className="icons" title="HTML, CSS, JavaScript" src={htmlIcon} /></a>
+                        <a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer"><img className="icons" alt='HTML' title="HTML, CSS, JavaScript" src={htmlIcon} /></a>
                     </div>
                     <div className="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-xs-12">
-                        <a href="https://jquery.com/" target="_blank"><img className="icons" title="jQuery" src={jqueryIcon} /></a>
+                        <a href="https://jquery.com/" target="_blank" rel="noopener noreferrer"><img className="icons" alt='jQuery' title="jQuery" src={jqueryIcon} /></a>
                     </div>
                     <div className="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-xs-12">
-                        <a href="https://www.mysql.com/" target="_blank"><img className="icons" title="MySQL" src={mysqlIcon} /></a>
+                        <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer"><img className="icons" alt='MySQL' title="MySQL" src={mysqlIcon} /></a>
                     </div>
                 </div>
                 <div className="iconRows">
                     <div className="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-xs-12">
-                        <a href="https://materializecss.com/" target="_blank"><img className="icons" title="Materialize" src={materializeIcon} /></a>
+                        <a href="https://materializecss.com/" target="_blank" rel="noopener noreferrer"><img className="icons" alt='Materialize' title="Materialize" src={materializeIcon} /></a>
                     </div>
                     <div className="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-xs-12">
-                        <a href="https://www.mongodb.com/" target="_blank"><img className="icons" title="MongoDB" src={mongodbIcon} /></a>
+                        <a href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer"><img className="icons" alt='MongoDB' title="MongoDB" src={mongodbIcon} /></a>
                     </div>
                     <div className="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-xs-12">
-                        <a href="https://nodejs.org/en/" target="_blank"><img className="icons" title="Node.js" src={nodejsIcon} /></a>
+                        <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer"><img className="icons" alt='Node' title="Node.js" src={nodejsIcon} /></a>
                     </div>
                     <div className="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-xs-12">
-                        <a href="https://www.npmjs.com/" target="_blank"><img className="icons" title="npm" src={npmIcon} /></a>
+                        <a href="https://www.npmjs.com/" target="_blank" rel="noopener noreferrer"><img className="icons" alt='npm' title="npm" src={npmIcon} /></a>
                     </div>
                     <div className="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-xs-12">
-                        <a href="https://reactjs.org/" target="_blank"><img className="icons" title="React.js" src={reactIcon} /></a>
+                        <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer"><img className="icons" alt='React' title="React.js" src={reactIcon} /></a>
                     </div>
                     <div className="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-xs-12">
-                        <a href="https://en.wikipedia.org/wiki/Command-line_interface" target="_blank"><img className="icons" title="CLI" src={terminalIcon} /></a>
+                        <a href="https://en.wikipedia.org/wiki/Command-line_interface" target="_blank" rel="noopener noreferrer"><img className="icons" alt='CLI' title="CLI" src={terminalIcon} /></a>
                     </div>
                 </div>
 
