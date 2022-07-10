@@ -1,0 +1,24 @@
+.iconRows {
+    display: flex;
+    justify-content: start;
+  }
+  .icons {
+    padding: 0rem 1rem 1rem 1rem;
+  }
+
+  @media (max-width: 650px ) {
+    .icons {
+        padding: 0rem;
+      }
+      .contactCard {
+          padding: .5rem;
+      }
+      .title {
+        font-size: .9rem;
+      }
+      .container {
+        padding: 0;
+      }
+      
+     
+  }

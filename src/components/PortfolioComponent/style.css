@@ -1,0 +1,59 @@
+.partCards {
+ height: 500px;   
+}
+.hero-body {
+    padding: 1rem!important;
+    padding-top: 4rem!important;
+  }
+.card-img-top {
+    padding-bottom: 1rem;
+}
+.card {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: rgba(255, 227, 143, 0.884);
+}
+.cardContainer {
+    padding: 2rem 12rem 4rem 12rem;
+    height: auto;
+  } 
+  @media (max-width: 650px ) {
+    .cardContainer {
+        padding: 1.5rem 1rem 1.5rem 1rem;
+        margin: 0;
+    }    
+  }
+  @media (max-width: 650px ) {
+    .card-text, .card-text-muted {
+        display: none;
+    }    
+    .card-img-top {
+        height: 9rem;
+    }
+    .card {
+        margin-top: 0;
+        margin-bottom: .5rem;
+        padding: .25rem;
+    }
+    .card-title {
+        font-size: 1rem;
+    }
+    a {
+        font-size: .75rem;
+    }
+    .hero-body {
+        padding-left: .25rem;
+        padding-right: .25rem;
+      }
+  }
+
+  .cardHeader {
+      display: flex;
+      justify-content: space-evenly;
+  }
+  h1 {
+      margin: 0!important;
+  }
