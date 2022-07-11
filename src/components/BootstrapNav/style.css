@@ -41,6 +41,7 @@
     justify-content: center;
     margin-top: .5rem;
     font-size: 1.5rem;
+    margin-left: 1rem;
 }
 
 .navbar-toggler {
@@ -62,5 +63,5 @@ ul {
     display: flex;
     justify-content: right;
     margin-right: 0!important;
-    margin-left: 80%;
+    margin-left: 75%;
 }
