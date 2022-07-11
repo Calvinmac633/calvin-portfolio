@@ -16,9 +16,12 @@ export function AboutComponent() {
                 <div class="container">
                     <h1 style={{color: "white"}}>About Me</h1>
                     <h3 style={{color: "white"}}>- - -</h3>
-                    <h4 style={{color: "white"}}>A Full-Stack Developer, recently graduated from University of Pennsylvania's Coding Bootcamp. 
-                    Experienced in working with others to produce dynamic, user-friendly web applications.
-                    Continue below to see what technologies and projects I have experience in.</h4>
+                    <h4 style={{color: "white"}}>Proficient full stack developer with a background in actuarial 
+                    data analytics. Professional experience working in agile development environment 
+                    and a passion for cryptocurrencies, decentralized technologies, and creating responsive 
+                    and user-friendly web designs. Excited to combine my technical skills in web development 
+                    with my background in data analytics to create thoughtful, customer-focused designs that drive 
+                    company growth and innovation.</h4>
                     <br></br>
                     <div className="field is-grouped">
                         <p className="control">
