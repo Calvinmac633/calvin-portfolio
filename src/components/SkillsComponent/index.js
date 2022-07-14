@@ -14,10 +14,6 @@ import reactIcon from "../../assets/skillIcons/react.png"
 import terminalIcon from "../../assets/skillIcons/terminal.png"
 import aboutImage from "../../assets/calvinroof2.jpg"
 import mobileAboutImage from "../../assets/aboutmobile.jpg"
-import coinTracker from "../../assets/coin-tracker.jpg";
-import WeatherApp from "../../assets/WeatherApp.jpg";
-import passwordGenImage from "../../assets/passwordGenerator.JPG";
-import NoteTakerApp from "../../assets/NoteTakerApp.jpg";
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
