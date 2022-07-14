@@ -23,12 +23,12 @@
     text-align: center;
   }
 
-  
+
   @media (min-width: 650px ) {
     .background {
         background-position: center;
     }
-    
+
     .background-content {
         padding: 1rem;
     }
@@ -38,7 +38,7 @@
     .coverButtons {
         margin: 0 0rem;
     }
-  
+
 }
 h1, h2, h3, h4, h5, h6 {
   margin: 0;

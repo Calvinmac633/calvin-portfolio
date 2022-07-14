@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import HeaderText from "../HeaderText";
 
 function BootstrapNav() {
     return (
@@ -23,7 +24,11 @@ function BootstrapNav() {
 
         <nav style={{backgroundColor: "rgba(255, 227, 143, 0.966)"}} class="navbar navbar-expand-lg navbar-light fixed-top py-3">
             {/* <a class="navbar-brand" href="#">Calvin Macintosh</a> */}
-            <p class='navbar-brand'>Calvin Macintosh</p>
+            {/*<p class='navbar-brand'>Calvin Macintosh</p>*/}
+            <div >
+                <HeaderText />
+            </div>
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
