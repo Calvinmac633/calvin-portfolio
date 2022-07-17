@@ -19,11 +19,11 @@
         margin: 0 5rem;
         margin: 0 0rem;
         height: 4rem;
-        width: 6rem;
+        width: 6.5rem;
     }
     .coverButtons:hover {
         background-color: white !important;
-        width: 8rem;
+        width: 8.5rem;
     }
 }
 
