@@ -1,0 +1,50 @@
+.button {
+    width: 13rem;
+    height: 5rem;
+    font-size: 1.5rem;
+}
+.hero {
+    background: linear-gradient(-35deg, #3595e5, #3483c4, #276699, #4087c3);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    /*height: 100vh;*/
+}
+.aboutMe {
+    text-align: center;
+    font-size: 5rem;
+}
+.aboutParagraph {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@media (max-width: 1350px) {}
+@media (max-width: 1200px) {}
+@media (max-width: 1024px) {}
+@media (max-width: 860px) {
+    .button {
+        width: 8.5rem;
+        height: 3.5rem;
+        font-size: 1rem;
+    }
+    .aboutParagraph {
+        font-size: 1rem;
+        margin-bottom: 2.5rem;
+    }
+    .aboutMe {
+        text-align: center;
+        font-size: 3rem;
+    }
+}

@@ -1,14 +1,10 @@
 import React from "react";
-import "./style.css"
+// import "./style.css"
 import {AboutComponent} from "../components/AboutComponent"
-
-
 
 function About() {
     return (
-
-       <AboutComponent />
-
+        <AboutComponent />
     );
 }
 

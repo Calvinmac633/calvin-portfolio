@@ -1,28 +1,43 @@
 .iconRows {
     display: flex;
-    justify-content: start;
-  }
-  .icons {
-    padding: 0 1rem 1rem 1rem;
-  }
+    /*justify-content: start;*/
+}
+.icons {
+    padding: 1rem 1rem 1rem 1rem;
+}
+.card {
+    border: 0px !important;
+    box-shadow: none;
+}
+.title {
+    font-size: 5rem;
+}
+.columns {
+    /*display: flex;*/
+    justify-content: center;
+    /*padding: 2rem;*/
+    /*margin: auto*/
+}
+.g-6 {
+    /*overflow-x: hidden !important;*/
+    /*padding: 0 !important;*/
+    max-width: 100vw;
+    margin: 0 !important;
+}
 
-  .columns {
-      /*display: flex;*/
-      justify-content: center;
-      padding: 2rem;
-      /*margin: auto*/
-  }
+.skillCard {
+    border: none;
+    background-color: transparent !important;
+    margin: auto;
+    max-width: 13rem;
+    max-height: 13rem;
+    margin-bottom: 2rem;
+    overflow-x: hidden;
+}
 
-  .skillCard {
-      margin: auto;
-      max-width: 13rem;
-      max-height: 13rem;
-      margin-bottom: 2rem;
-  }
+.g-4 {
 
-  .g-4 {
-
-  }
+}
 
 .cardImage {
     max-width: 11rem;
@@ -56,21 +71,25 @@
         max-height: 4rem;
         margin-bottom: 2rem;
     }
+
+    .title {
+        font-size: 3rem;
+    }
 }
 
-  /*@media (max-width: 650px ) {*/
-  /*  .icons {*/
-  /*      padding: 0rem;*/
-  /*    }*/
-  /*    .contactCard {*/
-  /*        padding: .5rem;*/
-  /*    }*/
-  /*    .title {*/
-  /*      font-size: .9rem;*/
-  /*    }*/
-  /*    .container {*/
-  /*      padding: 0;*/
-  /*    }*/
+/*@media (max-width: 650px ) {*/
+/*  .icons {*/
+/*      padding: 0rem;*/
+/*    }*/
+/*    .contactCard {*/
+/*        padding: .5rem;*/
+/*    }*/
+/*    .title {*/
+/*      font-size: .9rem;*/
+/*    }*/
+/*    .container {*/
+/*      padding: 0;*/
+/*    }*/
 
 
-  /*}*/
+/*}*/

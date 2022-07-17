@@ -2,7 +2,7 @@ import React from "react";
 // import { Col, Row, Container } from "../components/Grid";
 // import Jumbotron from "../components/Jumbotron";
 // import image from "../assets/CalvinCover.jpg"
-import "./style.css";
+// import "./style.css";
 import portImage from "../assets/calvinport.jpg"
 import portMobile from "../assets/portmobile.jpg"
 
@@ -18,7 +18,7 @@ function Contact() {
                 <h3>- - -</h3>
                 <br></br>
                 <br></br>
-                <div className="row">
+                <div className="row" style={{ justifyContent: 'center', flexWrap: 'nowrap', width: "30%"}}>
                     <div className="contactCard">
                         <a target="_blank" rel="noopener noreferrer" href="https://github.com/Calvinmac633">
                             <i style={{ color: "rgb(90,162,220)", width: "3rem", height: "3rem" }} className="fab fa-github"></i>
@@ -40,15 +40,25 @@ function Contact() {
                         <h4 className="contactHeader">LinkedIn</h4>
                     </div>
                 </div>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <h6 style={{ color: "white" }}>Copyright © 2022 • Calvin Macintosh</h6>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <div>
+                    <footer>
+                        <h6 style={{ color: "white" }}>Copyright © 2022 • Calvin Macintosh</h6>
+                    </footer>
+                </div>
             </div>
-
         </div>
 
     );

@@ -1,0 +1,16 @@
+#basic-navbar-nav {
+    margin: auto
+}
+.me-auto {
+    margin-left: auto !important;
+    color: #b07f15
+}
+.nav-link .navLinks {
+    font-weight: 900 !important;
+}
+@media (max-width: 1350px) {
+
+}
+@media (max-width: 1200px) {}
+@media (max-width: 1024px) {}
+@media (max-width: 860px) {}

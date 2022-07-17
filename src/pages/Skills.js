@@ -4,6 +4,6 @@ import {SkillsComponent} from "../components/SkillsComponent"
 
 export function Skills() {
     return (
-     <SkillsComponent />   
+        <SkillsComponent />
     )
 }

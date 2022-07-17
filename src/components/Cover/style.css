@@ -1,0 +1,106 @@
+@media (max-width: 1350px) {}
+@media (max-width: 1200px) {}
+@media (max-width: 1024px) {}
+@media (max-width: 860px) {}
+
+.coverButtons {
+    margin: 0 5rem;
+    height: 6rem;
+    width: 12rem;
+}
+
+.coverButtons:hover {
+    background-color: white !important;
+    width: 15rem;
+}
+
+@media (max-width: 860px) {
+    .coverButtons {
+        margin: 0 5rem;
+        margin: 0 0rem;
+        height: 4rem;
+        width: 6rem;
+    }
+    .coverButtons:hover {
+        background-color: white !important;
+        width: 8rem;
+    }
+}
+
+.background-content {
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-bottom: 5rem;
+    padding-top: 0rem;
+}
+.home-container {
+    height: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: column;
+    align-items: center;
+    /* padding: 40px; */
+    padding-top: 5rem;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.fullStack {
+    background: linear-gradient(-45deg, #414a6b, #6355a4, #e89a3e, #e89a3e);
+    background-size: 300%;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-weight: 500;
+    /*font-size: 6vw;*/
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animated_text 10s ease-in-out infinite;
+    -moz-animation: animated_text 10s ease-in-out infinite;
+    -webkit-animation: animated_text 10s ease-in-out infinite;
+}
+
+@keyframes animated_text {
+    0% { background-position: 0px 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0px 50%; }
+}
+
+.fullStack {
+    font-size: 4vw;
+}
+#subtitle {
+    font-size: 1.5vw
+}
+
+@media (max-width: 1024px) {
+    .fullStack {
+        font-size: 5vw;
+    }
+    #subtitle {
+        font-size: 2vw
+    }
+}
+
+
+
+
+@media (max-width: 650px ) {
+    .fullStack {
+        font-size: 8vw;
+    }
+    #subtitle {
+        font-size: 3.5vw
+    }
+    .home-container {
+        width: 80%;
+    }
+}
+
+
+
+

@@ -1,14 +1,27 @@
+
+
+
 .partCards {
- height: 500px;
+    height: 500px;
 }
-.hero-body {
+.portfolio-body {
     padding: 1rem!important;
     padding-top: 4rem!important;
-  }
+    background: linear-gradient(-35deg, #fde59d, #efcd64, #f3dd9b, #fde59d);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite
+}
+/*.hero {*/
+/*    background: linear-gradient(-35deg, #fde59d, #efcd64, #f3dd9b, #fde59d);*/
+/*    background-size: 400% 400%;*/
+/*    animation: gradient 5s ease infinite*/
+/*}*/
+
+
 .card-img-top {
     padding-bottom: 1rem;
 }
-.card {
+.portfolioCard {
     /*max-width: 16rem;*/
     /*max-height: 16rem;*/
     margin-left: 3rem;
@@ -21,27 +34,33 @@
 .cardContainer {
     padding: 2rem 12rem 4rem 12rem;
     height: auto;
-  }
-  @media (max-width: 650px ) {
+}
+@media (max-width: 650px ) {
     .cardContainer {
         padding: 1.5rem 1rem 1.5rem 1rem;
         margin: 0;
     }
-  }
-  @media (max-width: 650px ) {
+}
+button {
+    background-color: #008fc6;
+    border: none;
+    color: white;
+    padding: .5rem;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+@media (max-width: 650px ) {
     .card-text, .card-text-muted {
         display: none;
     }
     .card-img-top {
         height: 9rem;
     }
-    .card {
+    .portfolioCard {
         margin-top: 0;
         margin-bottom: .5rem;
         padding: .25rem;
-    }
-    .card-title {
-        font-size: 1rem;
     }
     a {
         font-size: .75rem;
@@ -49,13 +68,13 @@
     .hero-body {
         padding-left: .25rem;
         padding-right: .25rem;
-      }
-  }
+    }
+}
 
-  .cardHeader {
-      display: flex;
-      justify-content: space-evenly;
-  }
-  h1 {
-      margin: 0!important;
-  }
+.cardHeader {
+    display: flex;
+    justify-content: space-evenly;
+}
+h1 {
+    margin: 0!important;
+}

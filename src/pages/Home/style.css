@@ -1,0 +1,52 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,900;1,800;1,900&display=swap');*/
+
+* {
+    font-family: 'Cutive Mono', monospace;
+}
+/*html,body*/
+/*{*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    overflow-x: hidden;*/
+/*}*/
+
+.background {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index: 0;
+    /* color: rgba(255, 149, 149, 0); */
+}
+
+.container {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+    /*text-align: center;*/
+}
+
+.button {
+    color: white;
+}
+
+.contactCard {
+    padding: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+
+a {
+    color: #3273dc;
+}
+
+@media (max-width: 650px ) {
+    .contactHeader {
+        display: none;
+    }
+}
+
