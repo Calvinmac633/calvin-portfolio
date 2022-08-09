@@ -1,9 +1,10 @@
 import React from "react";
 import "./style.css";
-import NoteTakerApp from "../../assets/NoteTakerApp.jpg"
+// import NoteTakerApp from "../../assets/NoteTakerApp.jpg"
 import WeatherApp from "../../assets/WeatherApp.jpg"
 import coinTracker from '../../assets/coin-tracker.jpg'
 import passwordGenImage from "../../assets/passwordGenerator.JPG"
+import ethSend from "../../assets/ethSend.jpg"
 
 
 export function PortfolioComponent() {
@@ -11,13 +12,25 @@ export function PortfolioComponent() {
     return (
         <div>
             <section id="Portfolio" class="hero is-warning is-medium">
-                {/*<div style={{ backgroundColor: "rgba(255, 227, 143)" }} class="hero-body">*/}
                 <div class="hero-body portfolio-body">
                     <section>
                         <div className="container-fluid p-0">
                             <h1 style={{textAlign: "center"}} class="title">Portfolio</h1>
                             <h1 style={{textAlign: "center", color: 'rgb(0,0,0,.5)'}} class="title">- - -</h1>
                             <div className="row no-gutters">
+                            <div className="col-lg-6 col-sm-6">
+                                    <div className="portfolioCard">
+                                        <div className="card-block"></div>
+                                        <img className="card-img-top" alt='note taker' src={ethSend}></img>
+                                        <div className="cardHeader">
+                                            <h5 className="card-title">Eth Send</h5>
+                                            <a target="_blank" rel='noopener noreferrer' href="https://github.com/Calvinmac633/ethSend"><button>Repository</button></a>
+                                            {/* <a target="_blank" rel='noopener noreferrer' href="http://sleepy-sands-76241.herokuapp.com/"><button>Launch</button></a> */}
+                                        </div>
+                                        <p className="card-text">A blockchain integrated application that sends ETH, and a peronalized message, to anyone in the world with a web3 wallet.</p>
+                                        <small className="card-text-muted">Solidity, JSX, Tailwind CSS</small>
+                                    </div>
+                                </div>
                                 <div className="col-lg-6 col-sm-6">
                                     <div className="portfolioCard">
                                         <div className="card-block"></div>
@@ -33,7 +46,9 @@ export function PortfolioComponent() {
 
                                     </div>
                                 </div>
-                                <div className="col-lg-6 col-sm-6">
+                            </div>
+                            <div className="row no-gutters">
+                            <div className="col-lg-6 col-sm-6">
                                     <div className="portfolioCard">
                                         <div className="card-block"></div>
                                         <img className="card-img-top" alt='weather app' src={WeatherApp}></img>
@@ -47,8 +62,6 @@ export function PortfolioComponent() {
 
                                     </div>
                                 </div>
-                            </div>
-                            <div className="row no-gutters">
                                 <div className="col-lg-6 col-sm-6">
                                     <div className="portfolioCard">
                                         <div className="card-block"></div>
@@ -64,7 +77,7 @@ export function PortfolioComponent() {
 
                                     </div>
                                 </div>
-                                <div className="col-lg-6 col-sm-6">
+                                {/* <div className="col-lg-6 col-sm-6">
                                     <div className="portfolioCard">
                                         <div className="card-block"></div>
                                         <img className="card-img-top" alt='note taker' src={NoteTakerApp}></img>
@@ -74,9 +87,8 @@ export function PortfolioComponent() {
                                         </div>
                                         <p className="card-text">A note taker application! Create, delete, and update notes!</p>
                                         <small className="card-text-muted">Node.js, Express.js, jQuery</small>
-
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
 
