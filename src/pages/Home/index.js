@@ -7,7 +7,9 @@ import "./style.css";
 function Home() {
     return (
         <div id="Home" className="background" style={{ backgroundImage: `url(${image})`, height: "100vh" }}>
-            <Cover />
+            <div id="Home" className="background" style={{ backgroundColor: `rgb(255,215,143,0.15)`, height: "100vh" }}>
+                <Cover />
+            </div>
         </div>
     );
 }

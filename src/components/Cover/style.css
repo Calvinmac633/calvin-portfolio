@@ -1,7 +1,7 @@
-@media (max-width: 1350px) {}
+/* @media (max-width: 1350px) {}
 @media (max-width: 1200px) {}
 @media (max-width: 1024px) {}
-@media (max-width: 860px) {}
+@media (max-width: 860px) {} */
 
 .coverButtons {
     margin: 0 5rem;
@@ -9,20 +9,54 @@
     width: 12rem;
 }
 
+.animate {
+    animation-duration: 0.95s;
+    animation-delay: 0.5s;
+    animation-name: animate-fade;
+    animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+    animation-fill-mode: backwards;
+  }
+  
+  
+  /* Fade In */
+  .animate.fade {
+    animation-name: animate-fade;
+    animation-timing-function: ease;
+  }
+  
+  @keyframes animate-fade {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .delay-1 {
+    animation-delay: 0.25s;
+  }
+  .delay-2 {
+    animation-delay: 0.5s;
+  }
+  .delay-3 {
+    animation-delay: 0.8s;
+  }
+
 .coverButtons:hover {
     background-color: white !important;
-    width: 15rem;
+    /* width: 15rem; */
+}
+
+a:hover {
+  text-decoration: none !important;  
 }
 
 @media (max-width: 860px) {
     .coverButtons {
         margin: 0 -1rem;
         height: 4rem;
-        width: 10rem !important;
+        width: 9.5rem !important;
     }
     .coverButtons:hover {
         background-color: white !important;
-        width: 11rem;
+        /* width: 11rem; */
     }
 }
 
@@ -49,7 +83,7 @@
 }
 
 .fullStack {
-    background: linear-gradient(-45deg, #414a6b, #6355a4, #e89a3e, #e89a3e);
+    background: linear-gradient(-45deg, #414a6b, #7265ad, #e89a3e, #dc8420);
     background-size: 300%;
     /*font-family: Arial, Helvetica, sans-serif;*/
     font-weight: 500;
@@ -58,9 +92,9 @@
     text-transform: uppercase;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: animated_text 10s ease-in-out infinite;
-    -moz-animation: animated_text 10s ease-in-out infinite;
-    -webkit-animation: animated_text 10s ease-in-out infinite;
+    animation: animated_text 6s ease-in-out infinite;
+    -moz-animation: animated_text 6s ease-in-out infinite;
+    -webkit-animation: animated_text 6s ease-in-out infinite;
 }
 
 @keyframes animated_text {
@@ -86,8 +120,6 @@
 }
 
 
-
-
 @media (max-width: 650px ) {
     .fullStack {
         font-size: 8vw;
@@ -99,7 +131,3 @@
         width: 80%;
     }
 }
-
-
-
-

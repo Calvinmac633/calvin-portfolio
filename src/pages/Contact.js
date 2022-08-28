@@ -13,6 +13,7 @@ function Contact() {
 
     return (
         <div id="Contact" className="background" style={{ backgroundImage: `url(${imageUrl})` }}>
+            <div id="Skills" className="background" style={{ backgroundColor: `rgb(255,215,143,0.15)`, height: "100vh" }}>
             <div className="home-container fromCoverLinks">
                 <h1>Reach Out!</h1>
                 <h3>- - -</h3>
@@ -58,6 +59,7 @@ function Contact() {
                         <h6 style={{ color: "white" }}>Copyright © 2022 • Calvin Macintosh</h6>
                     </footer>
                 </div>
+            </div>
             </div>
         </div>
 

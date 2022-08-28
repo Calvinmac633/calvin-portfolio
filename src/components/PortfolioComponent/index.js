@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 // import NoteTakerApp from "../../assets/NoteTakerApp.jpg"
-import WeatherApp from "../../assets/WeatherApp.jpg"
+import PolyVote from "../../assets/PolyVote.jpg"
 import coinTracker from '../../assets/coin-tracker.jpg'
 import passwordGenImage from "../../assets/passwordGenerator.JPG"
 import ethSend from "../../assets/ethSend.jpg"
@@ -21,16 +21,18 @@ export function PortfolioComponent() {
                             <div className="col-lg-6 col-sm-6">
                                     <div className="portfolioCard">
                                         <div className="card-block"></div>
-                                        <img className="card-img-top" alt='note taker' src={ethSend}></img>
+                                        <img className="card-img-top" alt='poly vote' src={PolyVote}></img>
                                         <div className="cardHeader">
-                                            <h5 className="card-title">Eth Send</h5>
-                                            <a target="_blank" rel='noopener noreferrer' href="https://github.com/Calvinmac633/ethSend"><button>Repository</button></a>
-                                            {/* <a target="_blank" rel='noopener noreferrer' href="http://sleepy-sands-76241.herokuapp.com/"><button>Launch</button></a> */}
+                                            <h5 className="card-title">Poly Vote</h5>
+                                            <a target="_blank" rel='noopener noreferrer' href="https://polyvote.netlify.app"><button>Launch</button></a>
                                         </div>
-                                        <p className="card-text">A blockchain integrated application that sends ETH, and a peronalized message, to anyone in the world with a web3 wallet.</p>
-                                        <small className="card-text-muted">Solidity, JSX, Tailwind CSS</small>
+                                        <p className="card-text">Powered by the Polygon Blockchain, this app gauges market sentiment on different crypto asset pairs by tracking votes casted from unique wallet addresses. 
+                                        </p>
+                                        <small className="card-text-muted">Solidity, React, Tailwind CSS, Node.js</small>
+
                                     </div>
                                 </div>
+                            
                                 <div className="col-lg-6 col-sm-6">
                                     <div className="portfolioCard">
                                         <div className="card-block"></div>
@@ -51,6 +53,19 @@ export function PortfolioComponent() {
                             <div className="col-lg-6 col-sm-6">
                                     <div className="portfolioCard">
                                         <div className="card-block"></div>
+                                        <img className="card-img-top" alt='note taker' src={ethSend}></img>
+                                        <div className="cardHeader">
+                                            <h5 className="card-title">Eth Send</h5>
+                                            <a target="_blank" rel='noopener noreferrer' href="https://github.com/Calvinmac633/ethSend"><button>Repository</button></a>
+                                            {/* <a target="_blank" rel='noopener noreferrer' href="http://sleepy-sands-76241.herokuapp.com/"><button>Launch</button></a> */}
+                                        </div>
+                                        <p className="card-text">A blockchain integrated application that sends ETH, and a peronalized message, to anyone in the world with a web3 wallet.</p>
+                                        <small className="card-text-muted">Solidity, JSX, Tailwind CSS</small>
+                                    </div>
+                                </div>
+                                {/* <div className="col-lg-6 col-sm-6">
+                                    <div className="portfolioCard">
+                                        <div className="card-block"></div>
                                         <img className="card-img-top" alt='weather app' src={WeatherApp}></img>
                                         <div className="cardHeader">
                                             <h5 className="card-title">Weather App</h5>
@@ -61,7 +76,7 @@ export function PortfolioComponent() {
                                         <small className="card-text-muted">JavaScript, jQuery, HTML, CSS</small>
 
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="col-lg-6 col-sm-6">
                                     <div className="portfolioCard">
                                         <div className="card-block"></div>
