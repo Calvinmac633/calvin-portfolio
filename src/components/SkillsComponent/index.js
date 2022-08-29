@@ -17,6 +17,7 @@ import solidityIcon from "../../assets/skillIcons/solidity.png"
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import "aos/dist/aos.css";
 
 
 const imageUrl = window.innerWidth >= 650 ? aboutImage : mobileAboutImage
@@ -31,12 +32,12 @@ export function SkillsComponent() {
             </nav>
             <br></br>
 
-            <h1 style={{marginBottom: "0", textAlign: 'center'}} className="title">
+            <h1 style={{marginBottom: "0", textAlign: 'center'}} className="title" data-aos="fade-up">
                 Skills
             </h1>
-            <h1 style={{textAlign: 'center', color: 'rgb(0,0,0,.5)'}} className="title">- - -</h1>
+            <h1 style={{textAlign: 'center', color: 'rgb(0,0,0,.5)'}} className="title" data-aos="fade-up">- - -</h1>
 
-            <Row xs={3} md={3} lg={6} className="g-6">
+            <Row xs={3} md={3} lg={6} className="g-6" data-aos="fade-left">
                 <Col className='cardColumn' >
                     <Card className='skillCard'>
                         <Card.Img className='cardImage' variant="center" src={reactIcon} alt='react' />
@@ -69,7 +70,7 @@ export function SkillsComponent() {
                 </Col>
             </Row>
 
-            <Row style={{marginTop: '.75rem'}} xs={3} md={3} lg={6} className="g-6">
+            <Row style={{marginTop: '.75rem'}} xs={3} md={3} lg={6} className="g-6" data-aos="fade-right">
                 <Col className='cardColumn'>
                     <Card className='skillCard'>
                         <Card.Img className='cardImage' variant="center" src={mongodbIcon} alt='mongodb' />

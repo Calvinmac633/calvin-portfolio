@@ -2,6 +2,7 @@ import React from "react";
 import { Cover } from "../../components/Cover"
 import image from "../../assets/CalvinCover_resized.jpg"
 import "./style.css";
+import "aos/dist/aos.css";
 
 
 function Home() {

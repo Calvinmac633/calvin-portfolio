@@ -8,18 +8,17 @@ import ethSend from "../../assets/ethSend.jpg"
 
 
 export function PortfolioComponent() {
-
     return (
         <div>
             <section id="Portfolio" class="hero is-warning is-medium">
                 <div class="hero-body portfolio-body">
                     <section>
                         <div className="container-fluid p-0">
-                            <h1 style={{textAlign: "center"}} class="title">Portfolio</h1>
-                            <h1 style={{textAlign: "center", color: 'rgb(0,0,0,.5)'}} class="title">- - -</h1>
+                            <h1 style={{textAlign: "center"}} class="title" data-aos="fade-up">Portfolio</h1>
+                            <h1 style={{textAlign: "center", color: 'rgb(0,0,0,.5)'}} class="title" data-aos="fade-up">- - -</h1>
                             <div className="row no-gutters">
                             <div className="col-lg-6 col-sm-6">
-                                    <div className="portfolioCard">
+                                    <div className="portfolioCard"  data-aos="fade-up" data-aos-delay='400'>
                                         <div className="card-block"></div>
                                         <img className="card-img-top" alt='poly vote' src={PolyVote}></img>
                                         <div className="cardHeader">
@@ -34,7 +33,7 @@ export function PortfolioComponent() {
                                 </div>
                             
                                 <div className="col-lg-6 col-sm-6">
-                                    <div className="portfolioCard">
+                                    <div className="portfolioCard"  data-aos="fade-up" data-aos-delay='800'>
                                         <div className="card-block"></div>
                                         <img className="card-img-top" alt='coin tracker' src={coinTracker}></img>
                                         <div className="cardHeader">
@@ -51,7 +50,7 @@ export function PortfolioComponent() {
                             </div>
                             <div className="row no-gutters">
                             <div className="col-lg-6 col-sm-6">
-                                    <div className="portfolioCard">
+                                    <div className="portfolioCard"  data-aos="fade-up" data-aos-delay='1200'>
                                         <div className="card-block"></div>
                                         <img className="card-img-top" alt='note taker' src={ethSend}></img>
                                         <div className="cardHeader">
@@ -64,7 +63,7 @@ export function PortfolioComponent() {
                                     </div>
                                 </div>
                                 {/* <div className="col-lg-6 col-sm-6">
-                                    <div className="portfolioCard">
+                                    <div className="portfolioCard"  data-aos="fade-up" data-aos-delay='10'>
                                         <div className="card-block"></div>
                                         <img className="card-img-top" alt='weather app' src={WeatherApp}></img>
                                         <div className="cardHeader">
@@ -78,7 +77,7 @@ export function PortfolioComponent() {
                                     </div>
                                 </div> */}
                                 <div className="col-lg-6 col-sm-6">
-                                    <div className="portfolioCard">
+                                    <div className="portfolioCard"  data-aos="fade-up" data-aos-delay='1600'>
                                         <div className="card-block"></div>
                                         <img className="card-img-top" alt='password generator' src={passwordGenImage}></img>
                                         <div className="cardHeader">
@@ -93,7 +92,7 @@ export function PortfolioComponent() {
                                     </div>
                                 </div>
                                 {/* <div className="col-lg-6 col-sm-6">
-                                    <div className="portfolioCard">
+                                    <div className="portfolioCard"  data-aos="fade-up" data-aos-delay='10'>
                                         <div className="card-block"></div>
                                         <img className="card-img-top" alt='note taker' src={NoteTakerApp}></img>
                                         <div className="cardHeader">
