@@ -2,3 +2,7 @@
 @media (max-width: 1200px) {}
 @media (max-width: 1024px) {}
 @media (max-width: 860px) {}
+
+body {
+    overflow: hidden;
+}

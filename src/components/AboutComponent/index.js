@@ -18,10 +18,10 @@ export function AboutComponent() {
                     </div>
                 </nav>
                 <div class="hero-body">
-                    <div class="container" data-aos="fade-up">
-                        <h1 className='aboutMe'>About Me</h1>
-                        <h3 className='aboutMe' style={{color: "rgb(255,255,255,.5)"}}>- - -</h3>
-                        <h4 className='aboutParagraph'>Proficient full stack developer with a background in actuarial
+                    <div class="container">
+                        <h1 data-aos="fade-down" className='aboutMe'>About Me</h1>
+                        <h3 data-aos="fade-down" className='aboutMe' style={{color: "rgb(255,255,255,.5)"}}>- - -</h3>
+                        <h4 data-aos="fade-up" className='aboutParagraph'>Proficient full stack developer with a background in actuarial
                             data analytics. Professional experience working in agile development environment
                             and a passion for cryptocurrencies, decentralized technologies, and creating responsive
                             and user-friendly web designs. Excited to combine my technical skills in web development
@@ -30,7 +30,7 @@ export function AboutComponent() {
 
                         <div style={{justifyContent: 'center'}} className="field is-grouped">
                             <div className="control" >
-                                <a className="bd-tw-button button is-light is-outlined" rel="noopener noreferrer" target="_blank" href="https://github.com/Calvinmac633?tab=repositories">
+                                <a  data-aos="fade-right" className="bd-tw-button button is-light is-outlined" rel="noopener noreferrer" target="_blank" href="https://github.com/Calvinmac633?tab=repositories">
                                           <span className="icon">
                                               <i className="fab fa-github"></i>
                                           </span>
@@ -40,7 +40,7 @@ export function AboutComponent() {
                                 </a>
                             </div>
                             <div className="control">
-                                <a href={resume} target="_blank" rel="noopener noreferrer"
+                                <a  data-aos="fade-left" href={resume} target="_blank" rel="noopener noreferrer"
                                    className="button is-light is-outlined">
                                               <span className="icon">
                                                  <i className="fa fa-check-square"></i>
