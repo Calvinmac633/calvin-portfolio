@@ -6,8 +6,8 @@
     padding: 1rem 1rem 1rem 1rem;
 }
 .card {
-    border: 0px !important;
-    box-shadow: none;
+    border: none !important;
+    /* box-shadow: none; */
 }
 .title {
     font-size: 5rem;
@@ -34,42 +34,12 @@
     max-height: 13rem;
     margin-bottom: 2rem;
     overflow-x: hidden;
-    filter: drop-shadow(15px 15px 5px #00000042);
+    filter: drop-shadow(12px 12px 5px #00000064);
 }
 
 img {
     border-radius: 5%;
 }
-
-.animate {
-    animation-duration: 0.95s;
-    animation-delay: 0.5s;
-    animation-name: animate-fade;
-    animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
-    animation-fill-mode: backwards;
-  }
-  
-  
-  /* Fade In */
-  .animate.fade {
-    animation-name: animate-fade;
-    animation-timing-function: ease;
-  }
-  
-  @keyframes animate-fade {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-
-  .delay-1 {
-    animation-delay: 0.25s;
-  }
-  .delay-2 {
-    animation-delay: 0.5s;
-  }
-  .delay-3 {
-    animation-delay: 0.8s;
-  }
 
 .g-4 {
 

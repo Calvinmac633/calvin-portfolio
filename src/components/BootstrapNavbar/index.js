@@ -5,11 +5,11 @@ import React from 'react';
 
 const BootstrapNavbar = () => {
     return (
-        <Navbar style={{backgroundColor: 'rgb(255,215,143)'}} expand="lg" sticky="top">
+        <Navbar style={{backgroundColor: 'rgb(255,215,143)', position: 'fixed', top: 0, width: '100%'}} expand="lg" sticky="top">
             <Container>
                 <Navbar.Brand id='#navbrand' href="#Home">
-                    <span style={{color: '#dbad4a', fontWeight: 500, fontSize: '155%'}} className="title-word-1">CALVIN</span>
-                    <span style={{color: '#DF8453', fontWeight: 500, fontSize: '155%'}} className="title-word-2">MACINTOSH</span>
+                    <span style={{color: '#dbad4a', fontWeight: 500, fontSize: '110%'}} className="title-word-1">CALVIN</span>
+                    <span style={{color: '#DF8453', fontWeight: 500, fontSize: '110%'}} className="title-word-2">MACINTOSH</span>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">

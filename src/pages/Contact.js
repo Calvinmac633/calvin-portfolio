@@ -28,7 +28,7 @@ function Contact() {
                             <i style={{ color: "rgb(90,162,220)", width: "3rem", height: "3rem" }} className="fas fa-envelope-square"></i>
 
                         </a>
-                        <h4 className="contactHeader">calvinmac633@gmail.com</h4>
+                        <h4 className="contactHeader" style={{fontSize: '1.15rem'}}>calvinmac633@gmail.com</h4>
                     </div>
                     <div className="contactCard" style={{overflow: 'hidden !important'}} data-aos="fade-left">
                         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/calvin-macintosh-b5025198/">

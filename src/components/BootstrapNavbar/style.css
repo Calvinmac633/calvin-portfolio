@@ -1,6 +1,9 @@
 #basic-navbar-nav {
     margin: auto
 }
+#navbrand {
+    font-size: 155% !important;
+}
 .me-auto {
     margin-left: auto !important;
     color: #b07f15
@@ -9,8 +12,25 @@
     font-weight: 900 !important;
 }
 @media (max-width: 1350px) {
-
+    #basic-navbar-nav {
+        margin: auto
+    }
+    #navbrand {
+        font-size: 155% !important;
+    }
+    .me-auto {
+        margin-left: auto !important;
+        color: #b07f15
+    }
+    .nav-link .navLinks {
+        font-weight: 900 !important;
+    }
 }
 @media (max-width: 1200px) {}
 @media (max-width: 1024px) {}
 @media (max-width: 860px) {}
+@media (max-width: 360px) {
+    #navbrand {
+        font-size: 2rem !important;
+    }
+}

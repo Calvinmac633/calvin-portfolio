@@ -43,10 +43,14 @@
 a {
     color: #3273dc;
 }
-
+.contactHeader {
+    justify-content: center;
+    align-items: center;
+}
 @media (max-width: 650px ) {
     .contactHeader {
         display: none;
+        justify-content: center;
     }
 }
 
