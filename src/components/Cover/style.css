@@ -1,47 +1,11 @@
-/* @media (max-width: 1350px) {}
-@media (max-width: 1200px) {}
-@media (max-width: 1024px) {}
-@media (max-width: 860px) {} */
-
 .coverButtons {
     margin: 0 5rem;
     height: 6rem;
     width: 12rem;
 }
 
-.animate {
-    animation-duration: 0.95s;
-    animation-delay: 0.5s;
-    animation-name: animate-fade;
-    animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
-    animation-fill-mode: backwards;
-  }
-  
-  
-  /* Fade In */
-  .animate.fade {
-    animation-name: animate-fade;
-    animation-timing-function: ease;
-  }
-  
-  @keyframes animate-fade {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-
-  .delay-1 {
-    animation-delay: 0.25s;
-  }
-  .delay-2 {
-    animation-delay: 0.5s;
-  }
-  .delay-3 {
-    animation-delay: 0.8s;
-  }
-
 .coverButtons:hover {
     background-color: white !important;
-    /* width: 15rem; */
 }
 
 a:hover {
@@ -56,7 +20,6 @@ a:hover {
     }
     .coverButtons:hover {
         background-color: white !important;
-        /* width: 11rem; */
     }
 }
 
@@ -69,14 +32,13 @@ a:hover {
     padding-bottom: 5rem;
     padding-top: 0rem;
 }
+
 .home-container {
     height: 100%;
     display: flex;
-    /* flex-direction: column; */
     flex-direction: column;
     align-items: center;
-    /* padding: 40px; */
-    padding-top: 5rem;
+    padding-top: 7rem;
     width: 60%;
     margin: auto;
     text-align: center;
@@ -85,9 +47,7 @@ a:hover {
 .fullStack {
     background: linear-gradient(-45deg, #414a6b, #7265ad, #e89a3e, #dc8420);
     background-size: 300%;
-    /*font-family: Arial, Helvetica, sans-serif;*/
     font-weight: 500;
-    /*font-size: 6vw;*/
     letter-spacing: -1px;
     text-transform: uppercase;
     -webkit-background-clip: text;
@@ -120,7 +80,6 @@ a:hover {
     }
 }
 
-
 @media (max-width: 650px ) {
     .fullStack {
         font-size: 8vw;
@@ -150,6 +109,5 @@ a:hover {
     }
     .coverButtons:hover {
         background-color: white !important;
-        /* width: 11rem; */
     }
 }

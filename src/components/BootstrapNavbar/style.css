@@ -26,9 +26,6 @@
         font-weight: 900 !important;
     }
 }
-@media (max-width: 1200px) {}
-@media (max-width: 1024px) {}
-@media (max-width: 860px) {}
 @media (max-width: 360px) {
     #navbrand {
         font-size: 2rem !important;

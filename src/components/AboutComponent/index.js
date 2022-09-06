@@ -4,14 +4,12 @@ import resume from "../../assets/Calvin-Macintosh-Resume.pdf"
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
-
 export function AboutComponent() {
     useEffect(() => {
         Aos.init({duration: 2000})
     }, []);
     return (
         <div>
-
             <section id="About" className="hero is-info is-medium">
                 <nav style={{ backgroundColor: "rgba(255, 149, 149, 0)" }} className="navbar navbar-expand-lg navbar-light py-3" id="mainNav">
                     <div className="nav-container">
@@ -27,16 +25,15 @@ export function AboutComponent() {
                             and user-friendly web designs. Excited to combine my technical skills in web development
                             with my background in data analytics to create thoughtful, customer-focused designs that drive
                             company growth and innovation.</h4>
-
                         <div style={{justifyContent: 'center'}} className="field is-grouped">
                             <div className="control" >
                                 <a  data-aos="fade-right" className="bd-tw-button button is-light is-outlined" rel="noopener noreferrer" target="_blank" href="https://github.com/Calvinmac633?tab=repositories">
-                                          <span className="icon">
-                                              <i className="fab fa-github"></i>
-                                          </span>
+                                    <span className="icon">
+                                        <i className="fab fa-github"></i>
+                                    </span>
                                     <span>
-                                              Github Repo
-                                             </span>
+                                        Github Repo
+                                    </span>
                                 </a>
                             </div>
                             <div className="control">
