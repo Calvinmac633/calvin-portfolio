@@ -1,3 +1,3 @@
 # Calvin Macintosh Portfolio
 
-Deployed [here:](https://calvinmacintosh.com).
+Deployed here: [calvinmacintosh.com](https://calvinmacintosh.com).
