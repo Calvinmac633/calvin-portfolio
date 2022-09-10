@@ -1,0 +1,10 @@
+.contactForm {
+    background-color: rgba(249, 249, 249, 0.516);
+    padding: 1rem;
+    width: 90%;
+    margin: .5rem;
+}
+.sendButton:hover {
+    background-color: rgb(255, 254, 232) !important;
+    color: #f6cd81 !important
+}

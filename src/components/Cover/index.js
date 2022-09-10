@@ -27,6 +27,7 @@ export function Cover() {
                             className="button is-white is-outlined is-rounded is-large coverButtons delay-3">Portfolio</button>
                 </a>
             </div>
+           
         </div>
     );
 }

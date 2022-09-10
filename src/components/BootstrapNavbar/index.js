@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import React from 'react';
+import './style.css'
 
 const BootstrapNavbar = () => {
     return (
@@ -11,6 +12,16 @@ const BootstrapNavbar = () => {
                     <span style={{color: '#dbad4a', fontWeight: 500, fontSize: '110%'}} className="title-word-1">CALVIN</span>
                     <span style={{color: '#DF8453', fontWeight: 500, fontSize: '110%'}} className="title-word-2">MACINTOSH</span>
                 </Navbar.Brand>
+                <div className='linkIcon'>
+                    <a className='githubIcon' target="_blank" rel="noopener noreferrer" href="https://github.com/Calvinmac633">
+                        <i id="githubIconId" style={{width: '2rem', height: '2rem'}} className="fab fa-github"></i>
+                    </a>
+                </div>
+                <div className='linkIcon'>
+                    <a className='githubIcon' target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/calvin-macintosh-b5025198/">
+                        <i id="linkedInIconId" style={{width: '2.2rem', height: '2.2rem'}} className="fab fa-linkedin"></i>
+                    </a>
+                </div>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
                     <Nav className="justify-content-end">

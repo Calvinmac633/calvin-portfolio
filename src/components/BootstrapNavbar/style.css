@@ -1,6 +1,23 @@
 #basic-navbar-nav {
     margin: auto
 }
+.linkIcon {
+    margin-right: 1rem !important;
+}
+#githubIconId {
+    color: white;
+    border-radius: 50%;
+}
+#linkedInIconId {
+    color: white;
+    border-radius: 15%;
+}
+#githubIconId:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.649);
+}
+#linkedInIconId:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.649);
+}
 #navbrand {
     font-size: 155% !important;
 }
