@@ -1,12 +1,12 @@
 import React from "react";
 import './App.css';
-import BootstrapNavbar from "./components/BootstrapNavbar";
+// import BootstrapNavbar from "./components/BootstrapNavbar";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Home from "./pages/Home/index";
-import About from "./pages/About";
-import {Skills} from "./pages/Skills";
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
+// import Home from "./pages/Home/index";
+// import About from "./pages/About";
+// import {Skills} from "./pages/Skills";
+// import Portfolio from "./pages/Portfolio";
+// import Contact from "./pages/Contact";
 
 
 function App() {
