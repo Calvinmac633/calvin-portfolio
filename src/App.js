@@ -12,14 +12,14 @@ import Contact from "./pages/Contact";
 function App() {
   return (
       <BrowserRouter>
-          <BootstrapNavbar />
+          {/*<BootstrapNavbar />*/}
       <Switch>
           <Route exact path='/'>
-              <Home />
-              <About />
-              <Skills />
-              <Portfolio />
-              <Contact />
+              {/*<Home />*/}
+              {/*<About />*/}
+              {/*<Skills />*/}
+              {/*<Portfolio />*/}
+              {/*<Contact />*/}
           </Route>
       </Switch>
       </BrowserRouter>

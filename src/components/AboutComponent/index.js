@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "./style.css";
-import resume from "../../assets/Calvin-Macintosh-Resume.pdf"
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
@@ -26,25 +25,25 @@ export function AboutComponent() {
                             with my background in data analytics to create thoughtful, customer-focused designs that drive
                             company growth and innovation.</h4>
                         <div style={{justifyContent: 'center'}} className="field is-grouped">
-                            <div className="control" >
-                                <a  data-aos="fade-right" className="bd-tw-button button is-light is-outlined" rel="noopener noreferrer" target="_blank" href="https://github.com/Calvinmac633?tab=repositories">
-                                    <span className="icon">
-                                        <i className="fab fa-github"></i>
-                                    </span>
-                                    <span>
-                                        Github Repo
-                                    </span>
-                                </a>
-                            </div>
-                            <div className="control">
-                                <a  data-aos="fade-left" href={resume} target="_blank" rel="noopener noreferrer"
-                                   className="button is-light is-outlined">
-                                              <span className="icon">
-                                                 <i className="fa fa-check-square"></i>
-                                              </span>
-                                    <span>Resume</span>
-                                </a>
-                            </div>
+                            {/*<div className="control" >*/}
+                            {/*    <a  data-aos="fade-right" className="bd-tw-button button is-light is-outlined" rel="noopener noreferrer" target="_blank" href="https://github.com/Calvinmac633?tab=repositories">*/}
+                            {/*        <span className="icon">*/}
+                            {/*            <i className="fab fa-github"></i>*/}
+                            {/*        </span>*/}
+                            {/*        <span>*/}
+                            {/*            Github Repo*/}
+                            {/*        </span>*/}
+                            {/*    </a>*/}
+                            {/*</div>*/}
+                            {/*<div className="control">*/}
+                            {/*    <a  data-aos="fade-left" href={resume} target="_blank" rel="noopener noreferrer"*/}
+                            {/*       className="button is-light is-outlined">*/}
+                            {/*                  <span className="icon">*/}
+                            {/*                     <i className="fa fa-check-square"></i>*/}
+                            {/*                  </span>*/}
+                            {/*        <span>Resume</span>*/}
+                            {/*    </a>*/}
+                            {/*</div>*/}
                         </div>
 
 
